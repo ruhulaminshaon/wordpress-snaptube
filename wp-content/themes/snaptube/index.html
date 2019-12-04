@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>::Snaptube::</title>
+<meta charset="utf-8">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="shortcut icon" href="images/favicon.ico">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+<link rel="stylesheet" type="text/css" href="css/fancybox.css">
+<link rel="stylesheet" type="text/css" href="css/slick.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+
+<!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css" />
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/fancybox.js"></script>
+<script type="text/javascript" src="js/slick.js"></script>
+<script type="text/javascript" src="js/js.js"></script>
+</head>
+
+<body>
+<!--===================================-->
+<!--============= HEADER ==============-->
+<!--===================================-->
+<header class="header">
+    <div class="container">
+        <div class="tableLayout">
+            <div class="logoBox">
+                <a id="logo" href="home.html"><img src="images/logo.png" alt="Logo"></a>
+            </div>
+            <div class="searchBox">
+                <form class="searchForm" action="#" method="post">
+                    <input type="search" placeholder="Search">
+                </form>
+            </div>
+            <div class="socialBox">        
+                <ul>
+                    <li><a class="pinterest" href="http://pinterest.com"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                    <li><a class="g-plus" href="http://plus.google.com"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                    <li><a class="facebook" href="http://facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a class="twitter" href="http://twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a class="userBtn" href="#loginPop"><i class="fa fa-user" aria-hidden="true"></i></a></li>
+                    <li class="menuBtn"><a href="JavaScript:;"><span>&nbsp;</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!--===================================-->
+<!--============= WRAPPER =============-->
+<!--===================================-->
+<div class="wrapper">
+    <div class="container">
+        <div class="tableLayout">
+            <div class="sidebar">
+                <ul class="menu">
+                    <li><a href="#"><i class="fa fa-play-circle-o" aria-hidden="true"></i> Submit Video</a></li>
+                    <li><a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> Blog</a></li>
+                    <li><a href="#"><i class="fa fa-th-list" aria-hidden="true"></i> Categories</a></li>
+                    <li><a href="#"><i class="fa fa-ticket" aria-hidden="true"></i> Videos</a></li>
+                    <li><a href="#"><i class="fa fa-bullhorn" aria-hidden="true"></i> Video Ads</a></li>
+                    <li><a href="#"><i class="fa fa-rocket" aria-hidden="true"></i> Features</a>
+                        <ul class="sub-menu">
+                            <li><a href="#">Admin Panel</a></li>
+                            <li><a href="#">Google Fonts</a></li>
+                            <li><a href="#">Page Builder</a></li>
+                            <li><a href="#">Right Sidebar</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><i class="fa fa-puzzle-piece" aria-hidden="true"></i> Modules</a>
+                        <ul class="sub-menu">
+                            <li><a href="#">Buttons</a></li>
+                            <li><a href="#">Flickr widget</a></li>
+                            <li><a href="#">Gallery</a></li>
+                            <li><a href="#">Google map</a></li>
+                            <li><a href="#">Message boxes</a></li>
+                            <li><a href="#">Pie chart</a></li>
+                            <li><a href="#">Posts Grid</a></li>
+                            <li><a href="#">Posts Slider</a></li>
+                            <li><a href="#">Progress bar</a></li>
+                            <li><a href="#">Separator</a></li>
+                            <li><a href="#">Tabs &amp; Accordion</a></li>
+                            <li><a href="#">Video</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i> Contact Us</a></li>
+                    <li><a href="#"><i class="fa fa-users" aria-hidden="true"></i> BuddyPress</a>
+                        <ul class="sub-menu">
+                            <li><a href="#">Members</a></li>
+                            <li><a href="#">Site-Wide Activity</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><i class="fa fa-key" aria-hidden="true"></i> My account</a>
+                        <ul class="sub-menu">
+                            <li><a href="#">Register</a></li>
+                            <li><a href="#">Login</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="mainCont">
+                <div class="followed">
+                    <h2>Followed</h2>
+                    <p>Currently you are not following any category.</p>
+                </div>
+                
+                <div class="vdoGroup1">
+                    <h2>Travel and Living <a class="vdoCount" href="#">52 videos</a> <a class="followBtn" href="#"><i class="fa fa-plus-circle" aria-hidden="true"></i> Follow</a></h2>
+                    <div class="row">
+                        
+                        <div class="col-sm-10">
+                            <div class="row">
+
+                                <div class="col-sm-6">
+                                    <div class="vdoBox">
+                                        <div class="imgBox">
+                                            <div class="imgBoxIn">
+                                                <a class="vboPlay fancybox.iframe" href="http://www.youtube.com/embed/yicj8wQ2YIo?autoplay=1" title="First Date Tips"></a>
+                                                <a class="viewMore" href="#"></a>
+                                                <img src="images/img1.jpg" alt="Winter Landscapes">
+                                                <div class="vdoInfo">
+                                                    <span><i class="fa fa-clock-o" aria-hidden="true"></i> 7:13</span>
+                                                    <span><i class="fa fa-eye" aria-hidden="true"></i> 2105</span>
+                                                    <span><i class="fa fa-comment" aria-hidden="true"></i> 0</span>
+                                                    <span><i class="fa fa-heart" aria-hidden="true"></i> 62</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="vdoTxt">
+                                            <h4><a href="#">Winter Landscapes</a></h4>
+                                            <p>Pick up some first date tips for every zodiac sign from famed astrologer Jenny Lynch in this Howcast video. It is a long established fact that a reader will be distrac..</p>
+                                            <span><i class="fa fa-user" aria-hidden="true"></i> janis</span>
+                                            <span><i class="fa fa-calendar" aria-hidden="true"></i> 3 years ago</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <div class="vdoBox">
+                                        <div class="imgBox">
+                                            <div class="imgBoxIn">
+                                                <a class="vboPlay fancybox.iframe" href="http://www.youtube.com/embed/ke2y1HfY3T8?autoplay=1" title="Predicting Compatibility"></a>
+                                                <a class="viewMore" href="#"></a>
+                                                <img src="images/img2.jpg" alt="Winter Landscapes">
+                                                <div class="vdoInfo">
+                                                    <span><i class="fa fa-clock-o" aria-hidden="true"></i> 7:13</span>
+                                                    <span><i class="fa fa-eye" aria-hidden="true"></i> 2105</span>
+                                                    <span><i class="fa fa-comment" aria-hidden="true"></i> 0</span>
+                                                    <span><i class="fa fa-heart" aria-hidden="true"></i> 62</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="vdoTxt">
+                                            <h4><a href="#">Predicting Compatibility</a></h4>
+                                            <p>Learn how to predict compatibility with your astrological chart from famed astrologer Jenny Lynch in this Howcast video. It is a long established fact that a reader wi..</p>
+                                            <span><i class="fa fa-user" aria-hidden="true"></i> janis</span>
+                                            <span><i class="fa fa-calendar" aria-hidden="true"></i> 3 years ago</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-sm-2">
+                            <div class="vdoRgtBox">
+                                <div class="vdoRgtBoxIn">
+                                    <div class="vdoRgt">
+                                        <div class="vdoRgtIn">
+                                            <div class="vdoBox">
+                                                <div class="imgBox">
+                                                    <div class="imgBoxIn">
+                                                        <a class="vboPlay fancybox.iframe" href="http://www.youtube.com/embed/ALB6mVmHptM?autoplay=1" title=""></a>
+                                                        <a class="viewMore" href="#"></a>
+                                                        <img src="images/img3.jpg" alt="Winter Landscapes">
+                                                        <div class="vdoInfo">Love &amp; Marriage</div>
+                                                    </div>
+                                                </div>
+                                                <div class="vdoTxt">
+                                                    <p>Learn how to use your chart to predict when you will fall in love or even get married in t..</p>
+                                                    <span><i class="fa fa-eye" aria-hidden="true"></i> 1059</span>
+                                                    <span><i class="fa fa-comment" aria-hidden="true"></i> 0</span>
+                                                    <span><i class="fa fa-heart" aria-hidden="true"></i> 17</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="vdoRgtBoxIn">
+                                    <div class="vdoRgt">
+                                        <div class="vdoRgtIn">
+                                            <div class="vdoBox">
+                                                <div class="imgBox">
+                                                    <div class="imgBoxIn">
+                                                        <a class="vboPlay fancybox.iframe" href="http://www.youtube.com/embed/3yKjCZP7KUQ?autoplay=1" title=""></a>
+                                                        <a class="viewMore" href="#"></a>
+                                                        <img src="images/img4.jpg" alt="Winter Landscapes">
+                                                        <div class="vdoInfo">Read the Heart Line</div>
+                                                    </div>
+                                                </div>
+                                                <div class="vdoTxt">
+                                                    <p>Learn how to find and read the heart line from psychotherapist and palm reading expert Ell..</p>
+                                                    <span><i class="fa fa-eye" aria-hidden="true"></i> 955</span>
+                                                    <span><i class="fa fa-comment" aria-hidden="true"></i> 0</span>
+                                                    <span><i class="fa fa-heart" aria-hidden="true"></i> 12</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="clear"></div>
+                                <a class="thumbMore" href="#"><span class="plus">+</span>52 more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="vdoGroup1">
+                    <h2>Nature Landscapes <a class="vdoCount" href="#">32 videos</a> <a class="followBtn" href="#"><i class="fa fa-plus-circle" aria-hidden="true"></i> Follow</a></h2>
+                    <div class="row">
+                        <div class="col-sm-10">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="vdoBox">
+                                        <div class="imgBox">
+                                            <div class="imgBoxIn">
+                                                <a class="vboPlay fancybox.iframe" href="http://www.youtube.com/embed/Q8Lg8e9hML4?autoplay=1" title="Winter Landscapes"></a>
+                                                <a class="viewMore" href="#"></a>
+                                                <img src="images/img5.jpg" alt="Winter Landscapes">
+                                                <div class="vdoInfo">
+                                                    <span><i class="fa fa-clock-o" aria-hidden="true"></i> 7:13</span>
+                                                    <span><i class="fa fa-eye" aria-hidden="true"></i> 2105</span>
+                                                    <span><i class="fa fa-comment" aria-hidden="true"></i> 0</span>
+                                                    <span><i class="fa fa-heart" aria-hidden="true"></i> 62</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="vdoTxt">
+                                            <h4><a href="#">Winter Landscapes</a></h4>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet fringilla orci. Aenean molestie dolor nibh, non accumsan orci fermentum vitae. Proin bibendu..</p>
+                                            <span><i class="fa fa-user" aria-hidden="true"></i> janis</span>
+                                            <span><i class="fa fa-calendar" aria-hidden="true"></i> 3 years ago</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="vdoBox">
+                                        <div class="imgBox">
+                                            <div class="imgBoxIn">
+                                                <a class="vboPlay fancybox.iframe" href="http://www.youtube.com/embed/MaLELeXtI24?autoplay=1" title="Create Color Depth"></a>
+                                                <a class="viewMore" href="#"></a>
+                                                <img src="images/img6.jpg" alt="Winter Landscapes">
+                                                <div class="vdoInfo">
+                                                    <span><i class="fa fa-clock-o" aria-hidden="true"></i> 7:13</span>
+                                                    <span><i class="fa fa-eye" aria-hidden="true"></i> 2105</span>
+                                                    <span><i class="fa fa-comment" aria-hidden="true"></i> 0</span>
+                                                    <span><i class="fa fa-heart" aria-hidden="true"></i> 62</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="vdoTxt">
+                                            <h4><a href="#">Create Color Depth</a></h4>
+                                            <p>Animals are eukaryotic organisms of the kingdom Animalia or Metazoa. Their body many desktop packages and web page now use Lorem as model text and a search for 'lorem ips..</p>
+                                            <span><i class="fa fa-user" aria-hidden="true"></i> janis</span>
+                                            <span><i class="fa fa-calendar" aria-hidden="true"></i> 3 years ago</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="vdoRgtBox">
+                                <div class="vdoRgtBoxIn">
+                                    <div class="vdoRgt">
+                                        <div class="vdoRgtIn">
+                                            <div class="vdoBox">
+                                                <div class="imgBox">
+                                                    <div class="imgBoxIn">
+                                                        <a class="vboPlay fancybox.iframe" href="http://www.youtube.com/embed/UUrNGhKS1h8?autoplay=1" title="Perfect Exposure"></a>
+                                                        <a class="viewMore" href="#"></a>
+                                                        <img src="images/img7.jpg" alt="Winter Landscapes">
+                                                        <div class="vdoInfo">Perfect Exposure</div>
+                                                    </div>
+                                                </div>
+                                                <div class="vdoTxt">
+                                                    <p>Join host Joe Brady as he puts the Sekonic meter and the ColorChecker Passport with Sekoni..</p>
+                                                    <span><i class="fa fa-eye" aria-hidden="true"></i> 1059</span>
+                                                    <span><i class="fa fa-comment" aria-hidden="true"></i> 0</span>
+                                                    <span><i class="fa fa-heart" aria-hidden="true"></i> 17</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="vdoRgtBoxIn">
+                                    <div class="vdoRgt">
+                                        <div class="vdoRgtIn">
+                                            <div class="vdoBox">
+                                                <div class="imgBox">
+                                                    <div class="imgBoxIn">
+                                                        <a class="vboPlay fancybox.iframe" href="http://www.youtube.com/embed/L_jcOJb-N9s?autoplay=1" title="The Wild Photoshop"></a>
+                                                        <a class="viewMore" href="#"></a>
+                                                        <img src="images/img8.jpg" alt="Winter Landscapes">
+                                                        <div class="vdoInfo">The Wild Photoshop</div>
+                                                    </div>
+                                                </div>
+                                                <div class="vdoTxt">
+                                                    <p>It is a long established fact that a reader will be distracted by the readable content of..</p>
+                                                    <span><i class="fa fa-eye" aria-hidden="true"></i> 955</span>
+                                                    <span><i class="fa fa-comment" aria-hidden="true"></i> 0</span>
+                                                    <span><i class="fa fa-heart" aria-hidden="true"></i> 12</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="clear"></div>
+                                <a class="thumbMore" href="#"><span class="plus">+</span>32 more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="vdoGroup2">
+                    <h2>People <a class="vdoCount" href="#">64 videos</a> <a class="followBtn" href="#"><i class="fa fa-plus-circle" aria-hidden="true"></i> Follow</a></h2>
+                    <div class="slider">
+                        <ul>
+                            <li>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="vdoBox">
+                                            <div class="imgBox">
+                                                <div class="imgBoxIn">
+                                                    <a class="vboPlay fancybox.iframe" href="http://www.youtube.com/embed/VS4G5SRuLSg?autoplay=1" title="Harsh Lighting"></a>
+                                                    <a class="viewMore" href="#"></a>
+                                                    <img src="images/img9.jpg" alt="Winter Landscapes">
+                                                    <div class="vdoInfo">
+                                                        <span><i class="fa fa-clock-o" aria-hidden="true"></i> 7:13</span>
+                                                        <span><i class="fa fa-eye" aria-hidden="true"></i> 2105</span>
+                                                        <span><i class="fa fa-comment" aria-hidden="true"></i> 0</span>
+                                                        <span><i class="fa fa-heart" aria-hidden="true"></i> 62</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="vdoTxt">
+                                                <h4><a href="#">Harsh Lighting</a></h4>
+                                                <p>You've probably learned it's a bad idea to shoot on the beach at noon due to harsh lighting. However, with proper technique using a reflector and the right camera settings, you can get some great shots with sof..</p>
+                                                <span><i class="fa fa-user" aria-hidden="true"></i> janis</span>
+                                                <span><i class="fa fa-calendar" aria-hidden="true"></i> 3 years ago</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="vdoBox">
+                                            <div class="imgBox">
+                                                <div class="imgBoxIn">
+                                                    <a class="vboPlay fancybox.iframe" href="http://www.youtube.com/embed/e1e8rNqpMc4?autoplay=1" title="Wild America"></a>
+                                                    <a class="viewMore" href="#"></a>
+                                                    <img src="images/img10.jpg" alt="Winter Landscapes">
+                                                    <div class="vdoInfo">
+                                                        <span><i class="fa fa-clock-o" aria-hidden="true"></i> 7:13</span>
+                                                        <span><i class="fa fa-eye" aria-hidden="true"></i> 2105</span>
+                                                        <span><i class="fa fa-comment" aria-hidden="true"></i> 0</span>
+                                                        <span><i class="fa fa-heart" aria-hidden="true"></i> 62</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="vdoTxt">
+                                                <h4><a href="#">Wild America</a></h4>
+                                                <p>This film features some of the incredible wildlife seen in the American Southwest (Arizona, New Mexico, and California) and Mexico. Rattlesnakes feature prominently, as well as other reptile species, birds, an..</p>
+                                                <span><i class="fa fa-user" aria-hidden="true"></i> janis</span>
+                                                <span><i class="fa fa-calendar" aria-hidden="true"></i> 3 years ago</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="vdoBox">
+                                            <div class="imgBox">
+                                                <div class="imgBoxIn">
+                                                    <a class="vboPlay fancybox.iframe" href="http://www.youtube.com/embed/6v2L2UGZJAM?autoplay=1" title="Amazing nature"></a>
+                                                    <a class="viewMore" href="#"></a>
+                                                    <img src="images/img11.jpg" alt="Winter Landscapes">
+                                                    <div class="vdoInfo">
+                                                        <span><i class="fa fa-clock-o" aria-hidden="true"></i> 7:13</span>
+                                                        <span><i class="fa fa-eye" aria-hidden="true"></i> 2105</span>
+                                                        <span><i class="fa fa-comment" aria-hidden="true"></i> 0</span>
+                                                        <span><i class="fa fa-heart" aria-hidden="true"></i> 62</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="vdoTxt">
+                                                <h4><a href="#">Amazing nature</a></h4>
+                                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you ..</p>
+                                                <span><i class="fa fa-user" aria-hidden="true"></i> janis</span>
+                                                <span><i class="fa fa-calendar" aria-hidden="true"></i> 3 years ago</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="vdoBox">
+                                            <div class="imgBox">
+                                                <div class="imgBoxIn">
+                                                    <a class="vboPlay fancybox.iframe" href="http://www.youtube.com/embed/wr4d2FfivA4?autoplay=1" title="Emperors of the Ice"></a>
+                                                    <a class="viewMore" href="#"></a>
+                                                    <img src="images/img12.jpg" alt="Winter Landscapes">
+                                                    <div class="vdoInfo">
+                                                        <span><i class="fa fa-clock-o" aria-hidden="true"></i> 7:13</span>
+                                                        <span><i class="fa fa-eye" aria-hidden="true"></i> 2105</span>
+                                                        <span><i class="fa fa-comment" aria-hidden="true"></i> 0</span>
+                                                        <span><i class="fa fa-heart" aria-hidden="true"></i> 62</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="vdoTxt">
+                                                <h4><a href="#">Emperors of the Ice</a></h4>
+                                                <p>Wildlife photographer Paul Nicklen dives beneath the Antarctic ice to capture the "bubbly" emperor penguins in action, and risks being mistaken for his subjects by some very hungry predators. There are many var..</p>
+                                                <span><i class="fa fa-user" aria-hidden="true"></i> janis</span>
+                                                <span><i class="fa fa-calendar" aria-hidden="true"></i> 3 years ago</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="vdoGroup2">
+                    <h2>Cosmos <a class="vdoCount" href="#">43 videos</a> <a class="followBtn" href="#"><i class="fa fa-plus-circle" aria-hidden="true"></i> Follow</a></h2>
+                    <div class="slider">
+                        <ul>
+                            <li>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="vdoBox">
+                                            <div class="imgBox">
+                                                <div class="imgBoxIn">
+                                                    <a class="vboPlay fancybox.iframe" href="http://www.youtube.com/embed/VlhJm_KkKEg?autoplay=1" title="7 Minutes of Terror"></a>
+                                                    <a class="viewMore" href="#"></a>
+                                                    <img src="images/img13.jpg" alt="Winter Landscapes">
+                                                    <div class="vdoInfo">
+                                                        <span><i class="fa fa-clock-o" aria-hidden="true"></i> 7:13</span>
+                                                        <span><i class="fa fa-eye" aria-hidden="true"></i> 2105</span>
+                                                        <span><i class="fa fa-comment" aria-hidden="true"></i> 0</span>
+                                                        <span><i class="fa fa-heart" aria-hidden="true"></i> 62</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="vdoTxt">
+                                                <h4><a href="#">7 Minutes of Terror</a></h4>
+                                                <p>NASA's Curiosity rover is a 1-ton robot that will make an unprecedented Mars landing on Aug. 5, 2012. See how the risky maneuver will keep rover team members in suspense for 7 fateful minutes.</p>
+                                                <span><i class="fa fa-user" aria-hidden="true"></i> janis</span>
+                                                <span><i class="fa fa-calendar" aria-hidden="true"></i> 3 years ago</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="vdoBox">
+                                            <div class="imgBox">
+                                                <div class="imgBoxIn">
+                                                    <a class="vboPlay fancybox.iframe" href="http://www.youtube.com/embed/7UUPiCVbZhE?autoplay=1" title="Mars Exploration Rover"></a>
+                                                    <a class="viewMore" href="#"></a>
+                                                    <img src="images/img14.jpg" alt="Winter Landscapes">
+                                                    <div class="vdoInfo">
+                                                        <span><i class="fa fa-clock-o" aria-hidden="true"></i> 7:13</span>
+                                                        <span><i class="fa fa-eye" aria-hidden="true"></i> 2105</span>
+                                                        <span><i class="fa fa-comment" aria-hidden="true"></i> 0</span>
+                                                        <span><i class="fa fa-heart" aria-hidden="true"></i> 62</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="vdoTxt">
+                                                <h4><a href="#">Mars Exploration Rover</a></h4>
+                                                <p>NASA's Mars Exploration Rover Mission (MER) is an ongoing robotic space mission involving two rovers, Spirit and Opportunity, exploring the planet Mars. It began in 2003 with the sending of the two rovers—MER-A..</p>
+                                                <span><i class="fa fa-user" aria-hidden="true"></i> janis</span>
+                                                <span><i class="fa fa-calendar" aria-hidden="true"></i> 3 years ago</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="vdoBox">
+                                            <div class="imgBox">
+                                                <div class="imgBoxIn">
+                                                    <a class="vboPlay fancybox.iframe" href="http://www.youtube.com/embed/XVcxz2q12AE?autoplay=1" title="Colonize Mars"></a>
+                                                    <a class="viewMore" href="#"></a>
+                                                    <img src="images/img15.jpg" alt="Winter Landscapes">
+                                                    <div class="vdoInfo">
+                                                        <span><i class="fa fa-clock-o" aria-hidden="true"></i> 7:13</span>
+                                                        <span><i class="fa fa-eye" aria-hidden="true"></i> 2105</span>
+                                                        <span><i class="fa fa-comment" aria-hidden="true"></i> 0</span>
+                                                        <span><i class="fa fa-heart" aria-hidden="true"></i> 62</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="vdoTxt">
+                                                <h4><a href="#">Colonize Mars</a></h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet fringilla orci. Aenean molestie dolor nibh, non accumsan orci fermentum vitae. Proin bibendum at diam tincidunt fermentum. Nunc vene..</p>
+                                                <span><i class="fa fa-user" aria-hidden="true"></i> janis</span>
+                                                <span><i class="fa fa-calendar" aria-hidden="true"></i> 3 years ago</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="vdoBox">
+                                            <div class="imgBox">
+                                                <div class="imgBoxIn">
+                                                    <a class="vboPlay fancybox.iframe" href="http://www.youtube.com/embed/icN29cdmw_s?autoplay=1" title="People will live on Mars"></a>
+                                                    <a class="viewMore" href="#"></a>
+                                                    <img src="images/img16.jpg" alt="Winter Landscapes">
+                                                    <div class="vdoInfo">
+                                                        <span><i class="fa fa-clock-o" aria-hidden="true"></i> 7:13</span>
+                                                        <span><i class="fa fa-eye" aria-hidden="true"></i> 2105</span>
+                                                        <span><i class="fa fa-comment" aria-hidden="true"></i> 0</span>
+                                                        <span><i class="fa fa-heart" aria-hidden="true"></i> 62</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="vdoTxt">
+                                                <h4><a href="#">People will live on Mars</a></h4>
+                                                <p>Animals are eukaryotic organisms of the kingdom Animalia or Metazoa. Their body more than 100,000 people are eager to make themselves at home on another planet. They've applied for a one-way trip to Mars, hopin..</p>
+                                                <span><i class="fa fa-user" aria-hidden="true"></i> janis</span>
+                                                <span><i class="fa fa-calendar" aria-hidden="true"></i> 3 years ago</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="vdoGroup3">
+                    <h2>Other videos <a class="vdoCount" href="#">131 videos</a> <a class="followBtn" href="#"><i class="fa fa-plus-circle" aria-hidden="true"></i> Follow</a></h2>
+                    <div class="slider">
+                        <ul>
+                            <li>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="row">
+                                            <div class="col-sm-5">                            
+                                                <div class="vdoBox">
+                                                    <div class="imgBox">
+                                                        <div class="imgBoxIn">
+                                                            <a class="vboPlay fancybox.iframe" href="http://www.youtube.com/embed/G2hH1mwCYzE?autoplay=1" title="Holy Monks "></a>
+                                                            <a class="viewMore" href="#"></a>
+                                                            <img src="images/img17.jpg" alt="Winter Landscapes">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-7">
+                                                <div class="vdoTxt">
+                                                    <h4><a href="#">3D Short Film</a></h4>
+                                                    <div class="vdoInfo">
+                                                        <span><i class="fa fa-clock-o" aria-hidden="true"></i> 3:36</span>
+                                                        <span><i class="fa fa-eye" aria-hidden="true"></i> 2143</span>
+                                                        <span><i class="fa fa-comment" aria-hidden="true"></i> 2</span>
+                                                        <span><i class="fa fa-heart" aria-hidden="true"></i> 22</span>
+                                                    </div>
+                                                    <p>Out of Bounds is a graduation film made at The Animation Workshop, Den..</p>
+                                                    <span><i class="fa fa-user" aria-hidden="true"></i> janis</span>
+                                                    <span><i class="fa fa-calendar" aria-hidden="true"></i> 3 years ago</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="row">
+                                            <div class="col-sm-5">                            
+                                                <div class="vdoBox">
+                                                    <div class="imgBox">
+                                                        <div class="imgBoxIn">
+                                                            <a class="vboPlay fancybox.iframe" href="http://www.youtube.com/embed/yltlJEdSAHw?autoplay=1" title="Rollin Wild"></a>
+                                                            <a class="viewMore" href="#"></a>
+                                                            <img src="images/img18.jpg" alt="Winter Landscapes">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-7">
+                                                <div class="vdoTxt">
+                                                    <h4><a href="#">Cupidon</a></h4>
+                                                    <div class="vdoInfo">
+                                                        <span><i class="fa fa-clock-o" aria-hidden="true"></i> 3:36</span>
+                                                        <span><i class="fa fa-eye" aria-hidden="true"></i> 2143</span>
+                                                        <span><i class="fa fa-comment" aria-hidden="true"></i> 2</span>
+                                                        <span><i class="fa fa-heart" aria-hidden="true"></i> 22</span>
+                                                    </div>
+                                                    <p>Animation Movie Cupidon is a Animation Short Film HD. This short movie..</p>
+                                                    <span><i class="fa fa-user" aria-hidden="true"></i> janis</span>
+                                                    <span><i class="fa fa-calendar" aria-hidden="true"></i> 3 years ago</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="row">
+                                            <div class="col-sm-5">                            
+                                                <div class="vdoBox">
+                                                    <div class="imgBox">
+                                                        <div class="imgBoxIn">
+                                                            <a class="vboPlay fancybox.iframe" href="http://www.youtube.com/embed/hPovrwqaErs?autoplay=1" title="Commandments"></a>
+                                                            <a class="viewMore" href="#"></a>
+                                                            <img src="images/img19.jpg" alt="Winter Landscapes">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-7">
+                                                <div class="vdoTxt">
+                                                    <h4><a href="#">Alice Amv</a></h4>
+                                                    <div class="vdoInfo">
+                                                        <span><i class="fa fa-clock-o" aria-hidden="true"></i> 3:36</span>
+                                                        <span><i class="fa fa-eye" aria-hidden="true"></i> 2143</span>
+                                                        <span><i class="fa fa-comment" aria-hidden="true"></i> 2</span>
+                                                        <span><i class="fa fa-heart" aria-hidden="true"></i> 22</span>
+                                                    </div>
+                                                    <p>Alice Amv - Alice in Wonderland Full Movie Game 2014 - Full Alice trib..</p>
+                                                    <span><i class="fa fa-user" aria-hidden="true"></i> janis</span>
+                                                    <span><i class="fa fa-calendar" aria-hidden="true"></i> 3 years ago</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="row">
+                                            <div class="col-sm-5">                            
+                                                <div class="vdoBox">
+                                                    <div class="imgBox">
+                                                        <div class="imgBoxIn">
+                                                            <a class="vboPlay fancybox.iframe" href="http://www.youtube.com/embed/FrjQrXc80cY?autoplay=1" title="Tolerantia"></a>
+                                                            <a class="viewMore" href="#"></a>
+                                                            <img src="images/img20.jpg" alt="Winter Landscapes">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-7">
+                                                <div class="vdoTxt">
+                                                    <h4><a href="#">Baby Hazel Games</a></h4>
+                                                    <div class="vdoInfo">
+                                                        <span><i class="fa fa-clock-o" aria-hidden="true"></i> 3:36</span>
+                                                        <span><i class="fa fa-eye" aria-hidden="true"></i> 2143</span>
+                                                        <span><i class="fa fa-comment" aria-hidden="true"></i> 2</span>
+                                                        <span><i class="fa fa-heart" aria-hidden="true"></i> 22</span>
+                                                    </div>
+                                                    <p>Baby Hazel Games - Baby and Kids Games Movie Dora Games for Kids - Dor..</p>
+                                                    <span><i class="fa fa-user" aria-hidden="true"></i> janis</span>
+                                                    <span><i class="fa fa-calendar" aria-hidden="true"></i> 3 years ago</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="row">
+                                            <div class="col-sm-5">                            
+                                                <div class="vdoBox">
+                                                    <div class="imgBox">
+                                                        <div class="imgBoxIn">
+                                                            <a class="vboPlay fancybox.iframe" href="http://www.youtube.com/embed/hRHbeYZhtgA?autoplay=1" title="Electroshock"></a>
+                                                            <a class="viewMore" href="#"></a>
+                                                            <img src="images/img21.jpg" alt="Winter Landscapes">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-7">
+                                                <div class="vdoTxt">
+                                                    <h4><a href="#">Animation Movie - FAT</a></h4>
+                                                    <div class="vdoInfo">
+                                                        <span><i class="fa fa-clock-o" aria-hidden="true"></i> 3:36</span>
+                                                        <span><i class="fa fa-eye" aria-hidden="true"></i> 2143</span>
+                                                        <span><i class="fa fa-comment" aria-hidden="true"></i> 2</span>
+                                                        <span><i class="fa fa-heart" aria-hidden="true"></i> 22</span>
+                                                    </div>
+                                                    <p>FAT is a funny animation movie hd made by 3 students in 2011, the film..</p>
+                                                    <span><i class="fa fa-user" aria-hidden="true"></i> janis</span>
+                                                    <span><i class="fa fa-calendar" aria-hidden="true"></i> 3 years ago</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="row">
+                                            <div class="col-sm-5">                            
+                                                <div class="vdoBox">
+                                                    <div class="imgBox">
+                                                        <div class="imgBoxIn">
+                                                            <a class="vboPlay fancybox.iframe" href="http://www.youtube.com/embed/7u2aX7mG2NU?autoplay=1" title="Ice Age 4"></a>
+                                                            <a class="viewMore" href="#"></a>
+                                                            <img src="images/img22.jpg" alt="Winter Landscapes">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-7">
+                                                <div class="vdoTxt">
+                                                    <h4><a href="#">Ratatouille</a></h4>
+                                                    <div class="vdoInfo">
+                                                        <span><i class="fa fa-clock-o" aria-hidden="true"></i> 3:36</span>
+                                                        <span><i class="fa fa-eye" aria-hidden="true"></i> 2143</span>
+                                                        <span><i class="fa fa-comment" aria-hidden="true"></i> 2</span>
+                                                        <span><i class="fa fa-heart" aria-hidden="true"></i> 22</span>
+                                                    </div>
+                                                    <p>Disney's Ratatouille official movie game LIKE for more videos.</p>
+                                                    <span><i class="fa fa-user" aria-hidden="true"></i> janis</span>
+                                                    <span><i class="fa fa-calendar" aria-hidden="true"></i> 3 years ago</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="row">
+                                            <div class="col-sm-5">                            
+                                                <div class="vdoBox">
+                                                    <div class="imgBox">
+                                                        <div class="imgBoxIn">
+                                                            <a class="vboPlay fancybox.iframe" href="http://www.youtube.com/embed/j6PbonHsqW0?autoplay=1" title="3D Short Film"></a>
+                                                            <a class="viewMore" href="#"></a>
+                                                            <img src="images/img23.jpg" alt="Winter Landscapes">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-7">
+                                                <div class="vdoTxt">
+                                                    <h4><a href="#">Holy Monks</a></h4>
+                                                    <div class="vdoInfo">
+                                                        <span><i class="fa fa-clock-o" aria-hidden="true"></i> 3:36</span>
+                                                        <span><i class="fa fa-eye" aria-hidden="true"></i> 2143</span>
+                                                        <span><i class="fa fa-comment" aria-hidden="true"></i> 2</span>
+                                                        <span><i class="fa fa-heart" aria-hidden="true"></i> 22</span>
+                                                    </div>
+                                                    <p>Out of Bounds is a graduation film made at The Animation Workshop, Den..</p>
+                                                    <span><i class="fa fa-user" aria-hidden="true"></i> janis</span>
+                                                    <span><i class="fa fa-calendar" aria-hidden="true"></i> 3 years ago</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="row">
+                                            <div class="col-sm-5">                            
+                                                <div class="vdoBox">
+                                                    <div class="imgBox">
+                                                        <div class="imgBoxIn">
+                                                            <a class="vboPlay fancybox.iframe" href="http://www.youtube.com/embed/gJ7xINoeFPk?autoplay=1" title="Cupidon"></a>
+                                                            <a class="viewMore" href="#"></a>
+                                                            <img src="images/img24.jpg" alt="Winter Landscapes">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-7">
+                                                <div class="vdoTxt">
+                                                    <h4><a href="#">Rollin Wild</a></h4>
+                                                    <div class="vdoInfo">
+                                                        <span><i class="fa fa-clock-o" aria-hidden="true"></i> 3:36</span>
+                                                        <span><i class="fa fa-eye" aria-hidden="true"></i> 2143</span>
+                                                        <span><i class="fa fa-comment" aria-hidden="true"></i> 2</span>
+                                                        <span><i class="fa fa-heart" aria-hidden="true"></i> 22</span>
+                                                    </div>
+                                                    <p>It is a long established fact that a reader will be distracted by the..</p>
+                                                    <span><i class="fa fa-user" aria-hidden="true"></i> janis</span>
+                                                    <span><i class="fa fa-calendar" aria-hidden="true"></i> 3 years ago</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="row">
+                                            <div class="col-sm-5">                            
+                                                <div class="vdoBox">
+                                                    <div class="imgBox">
+                                                        <div class="imgBoxIn">
+                                                            <a class="vboPlay fancybox.iframe" href="http://www.youtube.com/embed/yf1trNG2PE0?autoplay=1" title="Alice Amv"></a>
+                                                            <a class="viewMore" href="#"></a>
+                                                            <img src="images/img25.jpg" alt="Winter Landscapes">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-7">
+                                                <div class="vdoTxt">
+                                                    <h4><a href="#">Commandments</a></h4>
+                                                    <div class="vdoInfo">
+                                                        <span><i class="fa fa-clock-o" aria-hidden="true"></i> 3:36</span>
+                                                        <span><i class="fa fa-eye" aria-hidden="true"></i> 2143</span>
+                                                        <span><i class="fa fa-comment" aria-hidden="true"></i> 2</span>
+                                                        <span><i class="fa fa-heart" aria-hidden="true"></i> 22</span>
+                                                    </div>
+                                                    <p>Uploaded by Lokesh Bade. This channel is a Non-Profit one and all the..</p>
+                                                    <span><i class="fa fa-user" aria-hidden="true"></i> janis</span>
+                                                    <span><i class="fa fa-calendar" aria-hidden="true"></i> 3 years ago</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="row">
+                                            <div class="col-sm-5">                            
+                                                <div class="vdoBox">
+                                                    <div class="imgBox">
+                                                        <div class="imgBoxIn">
+                                                            <a class="vboPlay fancybox.iframe" href="http://www.youtube.com/embed/JuyB7NO0EYY?autoplay=1" title="Baby Hazel Games"></a>
+                                                            <a class="viewMore" href="#"></a>
+                                                            <img src="images/img26.jpg" alt="Winter Landscapes">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-7">
+                                                <div class="vdoTxt">
+                                                    <h4><a href="#">Tolerantia</a></h4>
+                                                    <div class="vdoInfo">
+                                                        <span><i class="fa fa-clock-o" aria-hidden="true"></i> 3:36</span>
+                                                        <span><i class="fa fa-eye" aria-hidden="true"></i> 2143</span>
+                                                        <span><i class="fa fa-comment" aria-hidden="true"></i> 2</span>
+                                                        <span><i class="fa fa-heart" aria-hidden="true"></i> 22</span>
+                                                    </div>
+                                                    <p>Animals are eukaryotic organisms of the kingdom Animalia or Metazoa. T..</p>
+                                                    <span><i class="fa fa-user" aria-hidden="true"></i> janis</span>
+                                                    <span><i class="fa fa-calendar" aria-hidden="true"></i> 3 years ago</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="row">
+                                            <div class="col-sm-5">                            
+                                                <div class="vdoBox">
+                                                    <div class="imgBox">
+                                                        <div class="imgBoxIn">
+                                                            <a class="vboPlay fancybox.iframe" href="http://www.youtube.com/embed/yltlJEdSAHw?autoplay=1" title="Animation Movie - FAT"></a>
+                                                            <a class="viewMore" href="#"></a>
+                                                            <img src="images/img18.jpg" alt="Winter Landscapes">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-7">
+                                                <div class="vdoTxt">
+                                                    <h4><a href="#">Electroshock</a></h4>
+                                                    <div class="vdoInfo">
+                                                        <span><i class="fa fa-clock-o" aria-hidden="true"></i> 3:36</span>
+                                                        <span><i class="fa fa-eye" aria-hidden="true"></i> 2143</span>
+                                                        <span><i class="fa fa-comment" aria-hidden="true"></i> 2</span>
+                                                        <span><i class="fa fa-heart" aria-hidden="true"></i> 22</span>
+                                                    </div>
+                                                    <p>It is a long established fact that a reader will be distracted by the..</p>
+                                                    <span><i class="fa fa-user" aria-hidden="true"></i> janis</span>
+                                                    <span><i class="fa fa-calendar" aria-hidden="true"></i> 3 years ago</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="row">
+                                            <div class="col-sm-5">                            
+                                                <div class="vdoBox">
+                                                    <div class="imgBox">
+                                                        <div class="imgBoxIn">
+                                                            <a class="vboPlay fancybox.iframe" href="http://www.youtube.com/embed/aCTawrBVgkc?autoplay=1" title="Ratatouille"></a>
+                                                            <a class="viewMore" href="#"></a>
+                                                            <img src="images/img27.jpg" alt="Winter Landscapes">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-7">
+                                                <div class="vdoTxt">
+                                                    <h4><a href="#">Ice Age 4</a></h4>
+                                                    <div class="vdoInfo">
+                                                        <span><i class="fa fa-clock-o" aria-hidden="true"></i> 3:36</span>
+                                                        <span><i class="fa fa-eye" aria-hidden="true"></i> 2143</span>
+                                                        <span><i class="fa fa-comment" aria-hidden="true"></i> 2</span>
+                                                        <span><i class="fa fa-heart" aria-hidden="true"></i> 22</span>
+                                                    </div>
+                                                    <p>Arctic Games is a video game based on the film of the same name. You n..</p>
+                                                    <span><i class="fa fa-user" aria-hidden="true"></i> janis</span>
+                                                    <span><i class="fa fa-calendar" aria-hidden="true"></i> 3 years ago</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--===================================-->
+<!--============= FOOTER ==============-->
+<!--===================================-->
+<footer class="footer">
+    <div class="container">
+        <div class="ftrBox">
+            <div class="ftrInner">
+                <ul class="ftrMenu">
+                    <li><a href="#">About Us</a><small>Information about us</small></li>
+                    <li><a href="#">Terms &amp; Conditions</a><small>What you can do and what not to do</small></li>
+                    <li><a href="#">Contact Us</a><small>Get in touch with us</small></li>
+                </ul>
+                <div class="ftrInfo">
+                    <a class="ftrLogo" href="#">
+                        <img src="images/ftr-logo.png" alt="Snaptube sandbox">
+                    </a>
+                    <p>&copy; Snaptube. All rights reserved, 2017</p>
+                </div>
+            </div>
+        	<span class="backTop"><i class="fa fa-arrow-up" aria-hidden="true"></i></span>
+        </div>
+    </div>
+</footer>
+
+
+<div id="loginPop">
+    <h3>Login</h3>
+    <form action="#" method="post">
+        <input class="form-control" type="text" name="login" placeholder="Username">
+        <input class="form-control" type="password" name="password" placeholder="Password">
+        <input class="button" type="submit" value="Login">
+        <span>or</span>
+        <a href="#">Sign up</a>
+        <a class="forgot" href="#">Forgot password</a>
+    </form>
+</div>
+</body>
+</html>
